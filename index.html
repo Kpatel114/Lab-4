@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>ITMD-361 Web Development</title>
+</head>
+
+<body>
+<h1>Volunteer Form </h1>
+<form method="GET" autocomplete="off" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+
+<fieldset>
+
+<h2>My Info </h2>
+
+<p>
+<label for="firstname">First Name:</label> <input type="text" name="Fname" id="firstname">
+</p>
+<p>
+<label for="lastname">Last Name:</label> <input type="text" name="Lname" id="lastname">
+</p>
+<p>
+<label for="phonenumber">Phone Number:</label> <input type="text" name="Phonenum" id="phonenumber">
+</p>
+<p>
+<label for="ema">Email:</label> <input type="text" name="email" id="ema">
+</P>
+
+<p>
+<label> Gender: </label> 
+<input type="checkbox"  name= "gender_field" value="Female">Female
+<input type="checkbox"  name = "gender_field" value="Male">Male
+</p>
+
+<p>
+
+<label> Age: 
+<select name= "age_field">
+<option value=" "  selected="selected"> Select Age</option>
+<option value="under 18" > under 18 </option>
+<option value="18-24" > 18-24</option>
+<option value="25-34" > 25-34 </option>
+<option value="35-44" > 35-44 </option>
+<option value="45-54" > 45-54 </option>
+<option value="55-64"> 55-64 </option>
+<option value="65 and over" > 65 and over </option>
+</select> </label>
+
+</p>
+
+</fieldset>
+
+
+<fieldset>
+<h2> My Availiablity </h2>
+<p>
+
+<label> Days Availiable:</label>
+
+<p><input type="checkbox"  name= "variable" value="thevalue">Sunday</p>
+<p><input type="checkbox"  name= "variable" value="thevalue">Monday</p>
+<p><input type="checkbox"  name= "variable" value="thevalue">Tuesday</p>
+<p><input type="checkbox"  name= "variable" value="thevalue">Wedenesday</p>
+<p><input type="checkbox"  name= "variable" value="thevalue">Thursday</p>
+<p><input type="checkbox"  name= "variable" value="thevalue">Friday</p>
+<p><input type="checkbox"  name= "variable" value= "thevalue">Saturday</p>
+</p>
+
+<p> Any Comments? </p>
+<textarea name="comments"></textarea>
+<p><button type="submit">Send Me</button></p>
+</fieldset>
+</form>
+</body>
+
+</html>
